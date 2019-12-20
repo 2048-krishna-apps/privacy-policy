@@ -1,0 +1,75 @@
+.page-header {
+  margin: -20px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 115%;
+  padding-bottom: 20px;
+  font-family: serif;
+  color: #fff;
+  background-image: linear-gradient(165deg, #506496, #3276b8, #146450, #02530a);
+}
+
+.page-header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.page-header h1 {
+  margin-top: 0.45rem;
+  margin-bottom: 0.8rem;
+}
+
+.icon {
+  width: 160px;
+  height: 160px;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  0% {
+      transform: scale(1);
+  }
+
+  50% {
+      transform: scale(1.05);
+  }
+
+  100% {
+      transform: scale(1);
+  }
+
+  /* from {
+      scale: 1;
+      background-image: linear-gradient(165deg, #506496, #3276b8, #146450, #02530a);
+      /* background-color: red; *
+  }
+
+  to {
+      background-image: linear-gradient(90deg, #506496, #3296c8, #146450, #02530a);
+      /* background-color: yellow; *
+  } */
+}
+
+/* Standard syntax */
+@keyframes example {
+  0% {
+      transform: scale(1);
+  }
+
+  70% {
+      transform: scale(1.1);
+  }
+
+  100% {
+      transform: scale(1);
+  }
+}
