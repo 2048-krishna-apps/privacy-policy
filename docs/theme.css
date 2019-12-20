@@ -33,6 +33,10 @@
   -webkit-animation-timing-function: ease-in-out;
 }
 
+h2, h3{
+  color: blue;
+}
+
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
   0% {
